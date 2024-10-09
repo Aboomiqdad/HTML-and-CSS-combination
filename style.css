@@ -1,0 +1,196 @@
+#introduction {
+    display:flex;
+    flex-direction: column;
+    background-color:#885778;
+    justify-content: center;
+    text-align: center;
+}
+.introduction{
+    font-family: serif;
+    color: white;
+    font-size: 2rem;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media (max-width: 768px) {
+    .introduction {
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
+.background {
+    background-color: rgb(255, 196, 240);
+}
+.fawas{
+    height: 200px;
+    margin-top: 60px;
+  margin-bottom: 2px;
+  border-radius: 100%;
+}
+.background > p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 240px 20px 240px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .background > p {
+        padding: 20px 40px;
+        font-size: 1rem;
+    }
+
+    .fawas {
+        height: 150px;
+    margin-top: 40px;
+  margin-bottom: 2px;
+  border-radius: 50%;
+    }
+}
+
+.resume-container {
+    display: grid;
+    background-color: rgb(68, 26, 68);
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 60px;
+   gap: 10px;
+}
+ .resume-item-1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+ }
+
+.resume {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        display: grid;
+        background-color: rgb(68, 26, 68);
+        grid-template-rows: 0.5fr 1fr 1fr;
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+}
+
+.project-container {
+    display: grid;
+    background-color: rgb(180, 128, 121);
+    grid-template-columns: 50%;
+    grid-template-rows: 15% 15% 55% 15%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+    height: 400px;
+    font-size: 1.2rem;
+}
+
+    @media (max-width: 768px) {
+        .project-container {
+            padding-left: 20px;
+            height: auto;
+            font-size: 1 rem;
+        }
+    }
+
+h1 .project-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.project-1 p {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.project-1 ul {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.social-media .media {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    padding: 10px 10px;
+    background-color: rgb(68, 26, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+.about {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 20px;
+        font-size: 1.2rem;
+        padding-left: 0px;
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(102, 79, 65);
+    position: relative;
+    padding: 20px;
+}
+
+
+.contact-me .account {
+    padding: 10px 10px;
+    background-color: rgb(68, 26, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.contact p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+    padding-left: 60px;
+
+} 
+
+@media (max-width: 768px) {
+    .contact-me p {
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
+
